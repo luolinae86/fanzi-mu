@@ -1,0 +1,17 @@
+subject_definitions
+<Subject 1> is Huo Shuan, a 41-year-old Han Chinese man, broad shoulders, short practical hair, weathered knuckles with rope-wear marks, an old safety rope coiled across his torso, washed work trousers, rubber-soled safety boots. Full body is visible, including trousers and boots. No logos, no text.
+
+summary
+A still, full-body character reference of <Subject 1> just inside a derelict pump station at night. He stands solid, rope on his body, looking level at someone off-camera. The camera is nearly locked off with a tiny push-in.
+
+retention_analysis
+Keep <Subject 1>'s broad build, coiled old safety rope, knuckle marks, washed work trousers and rubber-soled boots unchanged. No second person. No readable text or logos.
+
+detailed_description
+0.0-5.0s: Medium-full shot, 9:16, contemporary northern Chinese port city winter night. Cold concrete, flashlight spill and a little warm lantern light. <Subject 1> stands still, full body from head to boots. Mouth closed, he does not speak. Exactly two hands, relaxed at his sides or one lightly on the rope. Walls, pipes and clothes carry no writing and no logos. Slow almost imperceptible push-in, no cut.
+
+overall_soundscape
+Ambient night air only. No voices, no narration, no music stings.
+
+non_diegetic_music
+No non-diegetic music.

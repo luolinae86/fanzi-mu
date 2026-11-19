@@ -1,0 +1,17 @@
+subject_definitions
+<Subject 1> is the mouth of an old tomb-robber tunnel: one side has already collapsed, the lining is stained with grey-white mold, old brick and packed earth, lit by a flashlight beam. Empty of people. No carved writing, no paper, no signs.
+
+summary
+A scene still of the old tunnel mouth at night, looking into the dark, so the collapse and the moldy wall are clear. Almost no camera move.
+
+retention_analysis
+Keep the half-collapsed mouth, mold, old walls, and flashlight lighting. No people. No readable text, glyphs, or logos.
+
+detailed_description
+0.0-5.0s: Medium-wide, 9:16, contemporary winter night underground. Flashlight rakes the collapsed half of the entrance and the mold-stained old wall. The tunnel is empty. Brick, mud and timber carry no writing and no carved characters. Tiny push-in, no cut.
+
+overall_soundscape
+Ambient night air only. No voices, no narration, no music stings.
+
+non_diegetic_music
+No non-diegetic music.

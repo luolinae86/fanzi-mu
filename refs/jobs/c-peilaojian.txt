@@ -1,0 +1,17 @@
+subject_definitions
+<Subject 1> is Pei Laojian, a lean 70-year-old Han Chinese man, very tall and thin, weathered face, deep wrinkles, sharp eyes, cotton cap with a little rain on it, calloused hands, dark grey cotton trousers, old faded liberation shoes. Full body is visible, including trousers and shoes. No logos, no text on clothes or background.
+
+summary
+A still, full-body character reference of <Subject 1> standing in a quiet derelict pump station at night. He faces the camera almost front-on, weight on one leg, empty hands visible at his sides, looking slightly aside as if judging the ground. The camera is nearly locked off, with only a tiny push-in.
+
+retention_analysis
+Keep <Subject 1>'s age, thin tall build, cotton cap, calloused hands, dark grey cotton trousers and worn liberation shoes unchanged. No second person. No shovel in this plate (the shovel is a separate prop). No readable text, signs, or logos anywhere.
+
+detailed_description
+0.0-5.0s: Medium-full shot, 9:16, contemporary northern Chinese port city winter night. Cold damp concrete, a little warm lantern spill. <Subject 1> stands still, full body in frame from cap to shoes. His mouth is closed. He does not speak. Hands are empty, two hands only. Background walls and pipes carry no writing and no logos. Slow almost imperceptible push-in, no cut.
+
+overall_soundscape
+Ambient night air only. No voices, no narration, no music stings.
+
+non_diegetic_music
+No non-diegetic music.

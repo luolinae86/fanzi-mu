@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "has_audio": true,
+    "duration_tol_s": 1.5,
+    "forbid_text": true,
+    "text_conf_min": 0.62,
+    "person_score_min": 0.42,
+    "hand_score_min": 0.4,
+    "jaw_open_min": 0.35
+  },
+  "shots": {
+    "sh01a": {"persons_min": 1, "persons_max": 2, "hands_max": 4},
+    "sh01b": {"persons_min": 1, "persons_max": 2, "hands_max": 4},
+    "sh02":  {"persons_min": 1, "persons_max": 2, "hands_max": 4},
+    "sh03":  {"persons_min": 1, "persons_max": 2, "hands_max": 4},
+    "sh04":  {"persons_min": 0, "persons_max": 2, "hands_max": 4},
+    "sh05":  {"persons_min": 1, "persons_max": 2, "hands_max": 4},
+    "sh06":  {"persons_min": 2, "persons_max": 3, "hands_max": 6},
+    "sh07":  {"persons_min": 1, "persons_max": 2, "hands_max": 4},
+    "sh08a": {"persons_min": 0, "persons_max": 1, "hands_max": 2, "mouths_closed": false},
+    "sh08b": {"persons_min": 1, "persons_max": 1, "hands_max": 2, "mouths_closed": false},
+    "sh09":  {"persons_min": 1, "persons_max": 2, "hands_max": 4},
+    "sh10":  {"persons_min": 2, "persons_max": 3, "hands_max": 6},
+    "sh11":  {"persons_min": 2, "persons_max": 3, "hands_max": 6, "mouths_closed": true}
+  }
+}

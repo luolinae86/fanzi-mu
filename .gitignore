@@ -1,0 +1,14 @@
+# media and heavy stuff stay on 168, pull with rsync
+renders/
+qc/.venv/
+qc/out/
+qc/reports/
+refs/pending/
+*.mp4
+*.mov
+*.wav
+*.mp3
+__pycache__/
+*.pyc
+.DS_Store
+qc/models/

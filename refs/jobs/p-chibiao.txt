@@ -1,0 +1,17 @@
+subject_definitions
+<Subject 1> is a row of old survey marks cut into a tunnel wall: each mark is only a short horizontal cut and a short vertical cut with a tiny notch, repeated about one chi apart. They are plain incisions in the earth or brick, not calligraphy, not seal script, not characters, not numbers.
+
+summary
+A close still of the wall marks in a flashlight beam, clearly readable as simple cut notches, not as writing. Almost no camera move.
+
+retention_analysis
+Keep only incised notches, no Chinese characters, no seal script, no numbers, no paper, no people.
+
+detailed_description
+0.0-5.0s: Close-up, 9:16, flashlight raking an old tunnel wall. A short row of identical marks: each is a small horizontal nick and a small vertical nick with a tiny gap, spaced like a ruler, nothing more. The wall has no glyphs, no calligraphy, no logos. Tiny tilt down the row, no cut.
+
+overall_soundscape
+Ambient night air only. No voices, no narration, no music stings.
+
+non_diegetic_music
+No non-diegetic music.

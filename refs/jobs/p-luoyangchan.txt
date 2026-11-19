@@ -1,0 +1,17 @@
+subject_definitions
+<Subject 1> is a Luo-yang soil probe shovel: a half-cylinder steel blade on a long wooden shaft that has been handled until it shines. No logos, no engraved text, no brand marks.
+
+summary
+A product-style still of the shovel alone, leaning or held upright in dim pump-station light, so the half-cylinder blade and the polished shaft are both easy to read. Almost no camera move.
+
+retention_analysis
+Keep a single shovel, one half-cylinder blade, one shining shaft. No people. No text or logos on metal, wood, or background.
+
+detailed_description
+0.0-5.0s: Close to medium still, 9:16. The single shovel stands or leans in the foreground, blade clearly a half-cylinder, shaft worn glossy. Background is dark damp concrete with no writing. No hands, no second tool. Tiny push-in, no cut.
+
+overall_soundscape
+Ambient night air only. No voices, no narration, no music stings.
+
+non_diegetic_music
+No non-diegetic music.

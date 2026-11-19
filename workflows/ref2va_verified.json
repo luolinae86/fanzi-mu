@@ -1,0 +1,290 @@
+{
+ "92": {
+  "class_type": "SaveVideo",
+  "inputs": {
+   "filename_prefix": "video/xiaodou_sand_r29",
+   "format": "auto",
+   "format.codec": "auto",
+   "codec": "auto",
+   "video-preview": "",
+   "video": [
+    "105:91",
+    0
+   ]
+  }
+ },
+ "114": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "xiaodou_mom_front.png"
+  }
+ },
+ "115b": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "xiaodou_doudou_front.png"
+  }
+ },
+ "115": {
+  "class_type": "ResolutionSelector",
+  "inputs": {
+   "aspect_ratio": "16:9 (Widescreen)",
+   "megapixels": 1.0,
+   "multiple": 32
+  }
+ },
+ "105:11": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "minimax_h3_video_vae_int8_convrot.safetensors"
+  }
+ },
+ "105:24": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+  }
+ },
+ "105:23": {
+  "class_type": "VAEDecodeAudio",
+  "inputs": {
+   "samples": [
+    "105:14",
+    0
+   ],
+   "vae": [
+    "105:24",
+    0
+   ]
+  }
+ },
+ "105:10": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "105:14",
+    0
+   ],
+   "vae": [
+    "105:11",
+    0
+   ]
+  }
+ },
+ "105:17": {
+  "class_type": "KSamplerSelect",
+  "inputs": {
+   "sampler_name": "res_multistep"
+  }
+ },
+ "105:9": {
+  "class_type": "BasicScheduler",
+  "inputs": {
+   "scheduler": "simple",
+   "steps": [
+    "105:123",
+    0
+   ],
+   "denoise": 1.0,
+   "model": [
+    "105:122",
+    0
+   ]
+  }
+ },
+ "105:14": {
+  "class_type": "SamplerCustomAdvanced",
+  "inputs": {
+   "noise": [
+    "105:15",
+    0
+   ],
+   "guider": [
+    "105:16",
+    0
+   ],
+   "sampler": [
+    "105:17",
+    0
+   ],
+   "sigmas": [
+    "105:9",
+    0
+   ],
+   "latent_image": [
+    "105:104",
+    1
+   ]
+  }
+ },
+ "105:16": {
+  "class_type": "BasicGuider",
+  "inputs": {
+   "model": [
+    "105:122",
+    0
+   ],
+   "conditioning": [
+    "105:104",
+    0
+   ]
+  }
+ },
+ "105:6": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "105:13": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+   "type": "minimax",
+   "device": "default"
+  }
+ },
+ "105:15": {
+  "class_type": "RandomNoise",
+  "inputs": {
+   "noise_seed": 2026111806
+  }
+ },
+ "105:91": {
+  "class_type": "CreateVideo",
+  "inputs": {
+   "fps": 24.0,
+   "bit_depth": 8,
+   "color_space": "sRGB",
+   "chroma_subsampling": "auto",
+   "codec": "none",
+   "images": [
+    "105:10",
+    0
+   ],
+   "audio": [
+    "105:23",
+    0
+   ]
+  }
+ },
+ "105:104": {
+  "class_type": "MiniMaxH3ReferenceToVideo",
+  "inputs": {
+   "prompt": "subject_definitions:\n<Subject 1> is Mom Rabbit shown in <Picture 1>: cream-beige adult rabbit face from the reference, wearing a coral short-sleeve beach dress with white collar. Keep exact face from <Picture 1>.\n<Subject 2> is DouDou shown in <Picture 2>: small fluffy white child rabbit face from the reference, wearing yellow t-shirt + blue overalls + yellow shoes. Keep exact face from <Picture 2>.\nOnly these two speaking characters. Never clone. Never add extra rabbits/humans as main cast.\n\nintegrated_multimodal_description:\nOriginal ~29s kids-English teaching skit 「Build a Sandcastle / 堆沙堡」. Bright CGI, 16:9.\n\nLOCKED SET:\nSunny beach or outdoor sand pit. Continuous sand area — no indoor cut.\n\nPROP LOCK: ONE blue sand bucket + ONE small shovel; sandcastle forming. Keep props consistent — no teleport/duplicate flash.\nFORBIDDEN: indoor home cut; clone DouDou; style reset; crowded silent clones.\n\nEnglish lip-sync only; no on-screen text.\nTeaching focus words: sand, castle, dig, tall.\n\nTimeline:\n[Shot 1] 00.00–03.62 on sand. <Subject 1> (S1) says: <d>[English] Let's build a castle!</d>\n[Shot 2] 03.62–07.25 kneels. <Subject 2> (S2) says: <d>[English] A sandcastle!</d>\n[Shot 3] 07.25–10.88 shovel. <Subject 1> (S1) says: <d>[English] Dig the sand, DouDou.</d>\n[Shot 4] 10.88–14.50 digs. <Subject 2> (S2) says: <d>[English] I'm digging sand.</d>\n[Shot 5] 14.50–18.12 bucket pour. <Subject 1> (S1) says: <d>[English] Pour it carefully.</d>\n[Shot 6] 18.12–21.75 castle up. <Subject 2> (S2) says: <d>[English] Look! It's tall!</d>\n[Shot 7] 21.75–25.38 praises. <Subject 1> (S1) says: <d>[English] Great job, DouDou!</d>\n[Shot 8] 25.38–29.00 cheers. <Subject 2> (S2) says: <d>[English] I love sandcastles!</d>\nEnd same outdoor scene, friendly two-shot.\noverall_soundscape:\nEnglish dialogue; soft outdoor ambience matching the scene; light playful BGM continuous under dialogue from 0s to end.\nnon_diegetic_music:\nSoft playful underscoring, low under dialogue.\n",
+   "width": [
+    "115",
+    0
+   ],
+   "height": [
+    "115",
+    1
+   ],
+   "length": [
+    "105:107",
+    1
+   ],
+   "ref_image_size": "max",
+   "clip": [
+    "105:13",
+    0
+   ],
+   "vae": [
+    "105:11",
+    0
+   ],
+   "audio_vae": [
+    "105:24",
+    0
+   ],
+   "ref_images.ref_image_0": [
+    "114",
+    0
+   ],
+   "ref_images.ref_image_1": [
+    "115b",
+    0
+   ]
+  }
+ },
+ "105:107": {
+  "class_type": "ComfyMathExpression",
+  "inputs": {
+   "expression": "max(5, round(a * 24)) + (5 - (max(5, round(a * 24)) % 17)) % 17",
+   "values.a": [
+    "105:111",
+    0
+   ]
+  }
+ },
+ "105:111": {
+  "class_type": "PrimitiveFloat",
+  "inputs": {
+   "value": 29.0
+  }
+ },
+ "105:121": {
+  "class_type": "LoraLoaderModelOnly",
+  "inputs": {
+   "lora_name": "minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+   "strength_model": 1.0,
+   "model": [
+    "105:6",
+    0
+   ]
+  }
+ },
+ "105:122": {
+  "class_type": "ComfySwitchNode",
+  "inputs": {
+   "switch": [
+    "105:126",
+    0
+   ],
+   "on_false": [
+    "105:6",
+    0
+   ],
+   "on_true": [
+    "105:121",
+    0
+   ]
+  }
+ },
+ "105:123": {
+  "class_type": "ComfySwitchNode",
+  "inputs": {
+   "switch": [
+    "105:126",
+    0
+   ],
+   "on_false": [
+    "105:124",
+    0
+   ],
+   "on_true": [
+    "105:125",
+    0
+   ]
+  }
+ },
+ "105:124": {
+  "class_type": "PrimitiveInt",
+  "inputs": {
+   "value": 20
+  }
+ },
+ "105:125": {
+  "class_type": "PrimitiveInt",
+  "inputs": {
+   "value": 8
+  }
+ },
+ "105:126": {
+  "class_type": "PrimitiveBoolean",
+  "inputs": {
+   "value": false
+  }
+ }
+}

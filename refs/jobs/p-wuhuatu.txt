@@ -1,0 +1,17 @@
+subject_definitions
+<Subject 1> is a vertical soil core broken open along its length: the lower section is mottled red, yellow, black and grey earth packed together; the upper section is paler, looser backfill with a scrap of modern plastic wrapper caught in it. No writing on the plastic, no labels, no captions.
+
+summary
+A close still of the broken soil core so the two layers can be read at a glance. Almost no camera move.
+
+retention_analysis
+Keep exactly one core, two readable layers, and a small plain plastic scrap only in the upper loose soil. No people. No readable text or logos.
+
+detailed_description
+0.0-5.0s: Close-up, 9:16, lit like a work light over damp ground. The core lies on a knee or a board, split lengthwise. Lower half is dense mottled Han-period mixed earth; upper half is lighter, loosely packed, with a torn unmarked plastic scrap. No characters, no paper labels, no typography. Tiny push-in, no cut.
+
+overall_soundscape
+Ambient night air only. No voices, no narration, no music stings.
+
+non_diegetic_music
+No non-diegetic music.

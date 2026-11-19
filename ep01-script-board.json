@@ -1,0 +1,820 @@
+{
+  "id": "ep-01",
+  "title": "镜子里的字",
+  "series": "反字墓",
+  "volume": "卷一",
+  "aspect": "9:16",
+  "fps": 24,
+  "target_duration_s": 110,
+  "note": "原创样片，第三版修订（当晚下墓版）。剧本见 vol1-scripts.md 第 1 集。每集 110–120 秒，只删场间过渡，不删【内行】和【钩】。本集目标约 110 秒。角色与泵站等参考图以 refs/v2/ 为准；夜市场景与拓片已换用 refs/v3/s-yeshi.jpg（无铜镜、素面纸箱）和 refs/v3/p-rubbing.jpg（只有墨渍乱笔、无字）。仍缺砖头与侯启明声音参考。H3 提示词由「H3 出片」另行改写。全片色调：当代北方港城冬夜。保温杯画进马勺定妆，粉笔与折尺画进顾沉定妆，旧皮挎包与手镜画进林晚定妆，不单独立项；每张定妆须画出下装和鞋。赵三姐补齐发型与服色见 look。门楣倒刻「林晚」字形须在出片前锁定，并另备一版「晚」字多一笔供第 13 集使用。镜面与门楣出片时拍空镜、空额，字形后期合成；H3 不直接生成倒刻篆字。出片顺序（先易后难）：易 sh02、sh01a/b、sh03、sh09、sh06；中 sh10、sh11、sh07、sh05；难 sh04、sh08a/b。每镜参考图不超过 4 张。侯启明本集不露脸，只在 sh11 用画外音，不进 refs。 顾沉另有脸部特写 refs/v2/c-guchen-face.jpg（锁左眉疤），与 c-guchen 同用。",
+  "missing_refs": [
+    "c-zhuantou",
+    "c-houqiming"
+  ],
+  "characters": [
+    {
+      "id": "c-linwan",
+      "name": "林晚",
+      "ref_image": "refs/v2/c-linwan.jpg",
+      "ref_missing": false,
+      "look": "28岁女性，黑发低挽，深灰大衣，卡其围巾，旧皮挎包（内藏手镜），黄铜提灯，深色直筒裤，旧短靴；神情平静，吓到也不喊。当代北方港城冬夜。"
+    },
+    {
+      "id": "c-mashao",
+      "name": "马勺",
+      "ref_image": "refs/v2/c-mashao.jpg",
+      "ref_missing": false,
+      "look": "35岁瘦削男性，寸头，金边旧眼镜，偏大的棕色棉袄，旧卡其裤，松垮运动鞋，抱保温杯；平时慌张，碰到货眼神突然变专业。当代北方港城冬夜。"
+    },
+    {
+      "id": "c-guchen",
+      "name": "顾沉",
+      "ref_image": "refs/v2/c-guchen.jpg",
+      "ref_missing": false,
+      "look": "32岁男性，短发，左眉浅疤，黑帆布工作夹克，腰间盘绳，手持粉笔与折尺，深灰工装裤，泥点劳保鞋；话极少。当代北方港城冬夜。"
+    },
+    {
+      "id": "c-zhaosanjie",
+      "name": "赵三姐",
+      "ref_image": "refs/v2/c-zhaosanjie.jpg",
+      "ref_missing": false,
+      "look": "40岁女性，齐耳烫发，深酒红罩衫，藏青围裙，灰袖套，旧棉裤，耐磨布鞋，嗓门大，摊上铜镜与香火。当代北方港城冬夜。"
+    },
+    {
+      "id": "c-zhuantou",
+      "name": "砖头",
+      "ref_image": "",
+      "ref_missing": true,
+      "look": "12岁男孩，旧棉服，棉裤，脏球鞋，抱一摞纸箱，背景过场。当代北方港城冬夜。"
+    },
+    {
+      "id": "c-houqiming",
+      "name": "侯启明（画外音）",
+      "ref_image": "",
+      "ref_missing": true,
+      "look": "本集不露脸，只有嚼着东西的客气嗓音；需声音参考"
+    }
+  ],
+  "assets": [
+    {
+      "id": "s-yeshi",
+      "type": "scene",
+      "name": "津海夜市古玩巷",
+      "ref_image": "refs/v3/s-yeshi.jpg",
+      "ref_missing": false,
+      "look": "当代北方港城冬夜。雨后石板反光，绿灯罩，炭炉白气，素面无字纸箱；摊面无铜镜（v3）。"
+    },
+    {
+      "id": "s-bengzhan",
+      "name": "西坝废泵站",
+      "type": "scene",
+      "ref_image": "refs/v2/s-bengzhan.jpg",
+      "ref_missing": false,
+      "look": "当代北方港城冬夜。锈蚀混凝土、断管滴水、积水，地面一道裂缝，缝底露出青灰古砖"
+    },
+    {
+      "id": "p-bronzemirror",
+      "type": "prop",
+      "name": "土锈铜镜",
+      "ref_image": "refs/v2/p-bronzemirror.jpg",
+      "ref_missing": false,
+      "look": "汉式连弧纹铜镜，锈里咬着湿土。只作物证，不用来读字"
+    },
+    {
+      "id": "p-rubbing",
+      "type": "prop",
+      "name": "发黄拓片",
+      "ref_image": "refs/v3/p-rubbing.jpg",
+      "ref_missing": false,
+      "look": "发黄拓片，只有不可读的墨渍与乱笔，无任何可辨字形（v3）。正看是乱笔，倒字字形后期合成。"
+    },
+    {
+      "id": "p-lamp",
+      "type": "prop",
+      "name": "黄铜提灯与细绳",
+      "ref_image": "refs/v2/p-lamp.jpg",
+      "ref_missing": false,
+      "look": "黄铜手提灯，提梁拴两道细绳"
+    },
+    {
+      "id": "p-handmirror",
+      "type": "prop",
+      "name": "林晚手镜",
+      "ref_image": "refs/v2/p-handmirror.jpg",
+      "ref_missing": false,
+      "look": "旧圆手镜，铜框。出片时拍空镜面，倒字字形后期合成"
+    },
+    {
+      "id": "p-lintel",
+      "type": "prop",
+      "name": "缝底石门门楣",
+      "ref_image": "refs/v2/p-lintel.jpg",
+      "ref_missing": false,
+      "look": "青灰石门楣。出片时拍空额，不生成倒刻篆字；「林晚」倒刻字形另行锁定后后期合成，另备一版「晚」字多一笔供第13集"
+    }
+  ],
+  "scene_lock": "当代北方港城冬夜。sc1 雨后夜市古玩巷，绿灯罩与炭炉白气；sc2 西坝废泵站，锈管滴水，地缝下是青灰古砖与石门门楣（门楣拍空额，倒刻字形后期合成）。",
+  "scenes": [
+    {
+      "id": "sc1",
+      "slugline": "外。津海夜市古玩巷 - 夜",
+      "beats": [
+        {
+          "id": "b1a",
+          "action": "雨刚停，摊主收摊。赵三姐把铜镜丢上马勺的摊。",
+          "dialogue": [
+            {
+              "who": "赵三姐",
+              "line": "收了收了，再照要收钱了。"
+            }
+          ]
+        },
+        {
+          "id": "b1b",
+          "action": "马勺拿起铜镜，按三步验货：拇指在锈上一蹭，凑近闻，再翻过来看镜缘。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "锈往里吃。"
+            },
+            {
+              "who": "马勺",
+              "line": "棺木味，不是醋。"
+            },
+            {
+              "who": "马勺",
+              "line": "边上是土，不是胶。"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "action": "马勺手停住，声音变得专业；说完腿才开始抖。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "锈是从铜里往外吃的，土咬在锈缝里，拇指蹭不掉。这东西出土不过七天。"
+            },
+            {
+              "who": "马勺",
+              "line": "三姐，这镜子谁送来的？"
+            },
+            {
+              "who": "赵三姐",
+              "line": "一个吃饼的。你爱照不照。"
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "action": "镜子下压着发黄拓片，马勺像捏烫手的炭，塞给在摊前挑旧纸的林晚。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "这张纸你拿走。上头的字谁看谁倒霉，我贴墙上都嫌它阴。"
+            },
+            {
+              "who": "林晚",
+              "line": "正看是乱笔。"
+            }
+          ]
+        },
+        {
+          "id": "b4",
+          "action": "那面土锈铜镜仍摊在桌上，只作物证。林晚从挎包里取出自己的手镜，把拓片斜对着手镜。手镜拍成空镜面，倒字字形后期合成。巷口砖头抱纸箱跑过，看了一眼（不单独提供参考图）。",
+          "dialogue": [
+            {
+              "who": "林晚",
+              "line": "反字陵。"
+            },
+            {
+              "who": "林晚",
+              "line": "……西坝。"
+            }
+          ]
+        },
+        {
+          "id": "b5",
+          "action": "马勺抱紧保温杯；林晚卷好拓片塞进挎包往外走，马勺跟上。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "西坝泵站，废了十年了。"
+            },
+            {
+              "who": "林晚",
+              "line": "废了的地方，才有人挖。"
+            },
+            {
+              "who": "马勺",
+              "line": "我这条命是租的，押金还没退。"
+            },
+            {
+              "who": "林晚",
+              "line": "那你在上面等。"
+            },
+            {
+              "who": "马勺",
+              "line": "我一个人在上面更怕。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc2",
+      "slugline": "内。西坝废泵站 - 夜",
+      "beats": [
+        {
+          "id": "b6",
+          "action": "手电切开灰尘，锈管滴水。顾沉蹲在地缝边用粉笔画尺标，林晚刚要迈步。",
+          "dialogue": [
+            {
+              "who": "顾沉",
+              "line": "别踩。空的。"
+            },
+            {
+              "who": "马勺",
+              "line": "谁？"
+            },
+            {
+              "who": "顾沉",
+              "line": "量地的。"
+            }
+          ]
+        },
+        {
+          "id": "b7",
+          "action": "林晚蹲到缝边，先把黄铜提灯拴两道细绳打死结，再一寸寸放进缝里。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "你这是钓鱼？"
+            },
+            {
+              "who": "林晚",
+              "line": "灯掉下去，就看不见了。"
+            }
+          ]
+        },
+        {
+          "id": "b8a",
+          "action": "灯光往下沉，照出缝底一道青灰石门的门楣。门楣拍成空额，不生成倒刻篆字，字形后期合成。",
+          "dialogue": []
+        },
+        {
+          "id": "b8b",
+          "action": "林晚举起手镜对着缝口。手镜拍成空镜面，两字翻正由后期合成。",
+          "dialogue": [
+            {
+              "who": "林晚",
+              "line": "……是我的名字。"
+            }
+          ]
+        },
+        {
+          "id": "b9",
+          "action": "马勺后退撞上锈管。顾沉在缝边那两个字的正上方用粉笔圈一个圈。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "你别吓我，我心脏是二手的。"
+            },
+            {
+              "who": "顾沉",
+              "line": "刻得新。"
+            }
+          ]
+        },
+        {
+          "id": "b10",
+          "action": "缝底传来铁铲吃土的嚓嚓声。顾沉抬手，三人不动。林晚慢慢收灯，绳头沾着一团湿泥。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "底下是人……还是东西？"
+            },
+            {
+              "who": "林晚",
+              "line": "人。东西不用铲子。"
+            }
+          ]
+        },
+        {
+          "id": "b11",
+          "action": "铲土声停。缝底传上来一个嚼着东西的客气声音（侯启明画外音，本集不露脸）。三人的脸被缝里灯光照亮一半，谁都没动。",
+          "dialogue": [
+            {
+              "who": "侯启明（画外音）",
+              "line": "上面的，灯收一收，晃眼。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "sh01a",
+      "scene": "sc1",
+      "beats": [
+        "b1a"
+      ],
+      "duration_s": 7,
+      "mode": "Ref2VA",
+      "shot_size": "medium",
+      "camera": "慢推，沿湿摊面向前，一镜到底，中途不切",
+      "action": "雨后收摊。赵三姐把铜镜丢上马勺的摊。",
+      "refs": [
+        "c-mashao",
+        "c-zhaosanjie",
+        "s-yeshi",
+        "p-bronzemirror"
+      ],
+      "dialogue": [
+        {
+          "who": "赵三姐",
+          "line": "收了收了，再照要收钱了。"
+        }
+      ],
+      "lighting_scene_lock": "夜市：当代北方港城冬夜，雨后湿石板反光，绿灯罩暖光逐盏熄灭，炭炉白气",
+      "end_frame_note": "铜镜落在摊面上，赵三姐收回手，马勺刚要去接",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh01a_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111811
+    },
+    {
+      "id": "sh01b",
+      "scene": "sc1",
+      "beats": [
+        "b1b"
+      ],
+      "duration_s": 8,
+      "mode": "Ref2VA",
+      "shot_size": "close-up转medium close-up",
+      "camera": "特写马勺的手：蹭锈、凑近闻、翻看镜缘，再微拉到他的脸。一镜到底，中途不切",
+      "action": "马勺按三步验货：拇指蹭锈、闻、看镜缘。",
+      "refs": [
+        "c-mashao",
+        "c-zhaosanjie",
+        "s-yeshi",
+        "p-bronzemirror"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "锈往里吃。"
+        },
+        {
+          "who": "马勺",
+          "line": "棺木味，不是醋。"
+        },
+        {
+          "who": "马勺",
+          "line": "边上是土，不是胶。"
+        }
+      ],
+      "lighting_scene_lock": "夜市：当代北方港城冬夜，雨后湿石板反光，绿灯罩暖光逐盏熄灭，炭炉白气",
+      "end_frame_note": "马勺手指停在镜缘，三步验货做完，赵三姐在后景收摊",
+      "locked_version": "v2",
+      "locked_file": "fanzimu_ep01_sh01b_p720t8v2_00001_.mp4",
+      "locked_seed": 2026111812
+    },
+    {
+      "id": "sh02",
+      "scene": "sc1",
+      "beats": [
+        "b2"
+      ],
+      "duration_s": 12,
+      "mode": "Ref2VA",
+      "shot_size": "close-up转medium close-up",
+      "camera": "先特写拇指与锈，再微拉到马勺的脸",
+      "action": "马勺口吻变专业，说完腿开始抖",
+      "refs": [
+        "c-mashao",
+        "c-zhaosanjie",
+        "s-yeshi",
+        "p-bronzemirror"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "锈是从铜里往外吃的，土咬在锈缝里，拇指蹭不掉。这东西出土不过七天。"
+        },
+        {
+          "who": "马勺",
+          "line": "三姐，这镜子谁送来的？"
+        },
+        {
+          "who": "赵三姐",
+          "line": "一个吃饼的。你爱照不照。"
+        }
+      ],
+      "lighting_scene_lock": "夜市：当代北方港城冬夜，雨后湿石板反光，绿灯罩暖光逐盏熄灭，炭炉白气",
+      "end_frame_note": "马勺抬眼看赵三姐，镜子还在手里",
+      "locked_version": "v2",
+      "locked_file": "fanzimu_ep01_sh02_p720t8v2_00001_.mp4",
+      "locked_seed": 2026111802
+    },
+    {
+      "id": "sh03",
+      "scene": "sc1",
+      "beats": [
+        "b3"
+      ],
+      "duration_s": 9,
+      "mode": "Ref2VA",
+      "shot_size": "medium two-shot",
+      "camera": "固定",
+      "action": "马勺把拓片塞给林晚，林晚低头看",
+      "refs": [
+        "c-mashao",
+        "c-linwan",
+        "s-yeshi",
+        "p-rubbing"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "这张纸你拿走。上头的字谁看谁倒霉，我贴墙上都嫌它阴。"
+        },
+        {
+          "who": "林晚",
+          "line": "正看是乱笔。"
+        }
+      ],
+      "lighting_scene_lock": "夜市：当代北方港城冬夜，雨后湿石板反光，绿灯罩暖光逐盏熄灭，炭炉白气",
+      "end_frame_note": "拓片在林晚手里，正面朝镜头是乱笔",
+      "locked_version": "v3",
+      "locked_file": "fanzimu_ep01_sh03_p720t8v3_00001_.mp4",
+      "locked_seed": 2026111803
+    },
+    {
+      "id": "sh04",
+      "scene": "sc1",
+      "beats": [
+        "b4"
+      ],
+      "duration_s": 8,
+      "mode": "Ref2VA",
+      "shot_size": "insert close-up",
+      "camera": "越肩，焦点从拓片转到林晚的手镜镜面。一镜到底，中途不切",
+      "action": "土锈铜镜仍摊在桌上，只作物证。林晚取出自己的手镜，把拓片斜对着手镜。手镜拍成空镜面，倒字字形后期合成。后景砖头抱纸箱跑过，不单独提供参考图。",
+      "refs": [
+        "c-linwan",
+        "s-yeshi",
+        "p-rubbing",
+        "p-handmirror"
+      ],
+      "dialogue": [
+        {
+          "who": "林晚",
+          "line": "反字陵。"
+        },
+        {
+          "who": "林晚",
+          "line": "……西坝。"
+        }
+      ],
+      "lighting_scene_lock": "夜市：当代北方港城冬夜，雨后湿石板反光，绿灯罩暖光逐盏熄灭，炭炉白气",
+      "end_frame_note": "手镜空镜面留后期合成『反字陵』『西坝』；砖头已出画",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh04_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111804
+    },
+    {
+      "id": "sh05",
+      "scene": "sc1",
+      "beats": [
+        "b5"
+      ],
+      "duration_s": 13,
+      "mode": "Ref2VA",
+      "shot_size": "medium",
+      "camera": "林晚走出画，镜头横摇跟马勺追出",
+      "action": "马勺抱紧保温杯；林晚收好拓片往巷口走，马勺犹豫后跟上",
+      "refs": [
+        "c-mashao",
+        "c-linwan",
+        "s-yeshi"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "西坝泵站，废了十年了。"
+        },
+        {
+          "who": "林晚",
+          "line": "废了的地方，才有人挖。"
+        },
+        {
+          "who": "马勺",
+          "line": "我这条命是租的，押金还没退。"
+        },
+        {
+          "who": "林晚",
+          "line": "那你在上面等。"
+        },
+        {
+          "who": "马勺",
+          "line": "我一个人在上面更怕。"
+        }
+      ],
+      "lighting_scene_lock": "夜市：当代北方港城冬夜，雨后湿石板反光，绿灯罩暖光逐盏熄灭，炭炉白气",
+      "end_frame_note": "两人背影走向巷口黑处",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh05_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111805
+    },
+    {
+      "id": "sh06",
+      "scene": "sc2",
+      "beats": [
+        "b6"
+      ],
+      "duration_s": 8,
+      "mode": "Ref2VA",
+      "shot_size": "wide转medium",
+      "camera": "手持，手电光引导，后稳住",
+      "action": "手电光扫过锈管和地缝，顾沉蹲在缝边画尺标，抬手拦人",
+      "refs": [
+        "c-guchen",
+        "c-linwan",
+        "c-mashao",
+        "s-bengzhan"
+      ],
+      "dialogue": [
+        {
+          "who": "顾沉",
+          "line": "别踩。空的。"
+        },
+        {
+          "who": "马勺",
+          "line": "谁？"
+        },
+        {
+          "who": "顾沉",
+          "line": "量地的。"
+        }
+      ],
+      "lighting_scene_lock": "泵站：当代北方港城冬夜，手电冷白光与提灯暖黄，灰尘在光柱里浮动，缝底暗处只有灯光",
+      "end_frame_note": "林晚停在缝前半步，顾沉粉笔还在地上",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh06_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111806
+    },
+    {
+      "id": "sh07",
+      "scene": "sc2",
+      "beats": [
+        "b7"
+      ],
+      "duration_s": 9,
+      "mode": "Ref2VA",
+      "shot_size": "close-up",
+      "camera": "俯拍，跟灯往下",
+      "action": "林晚给提灯拴两道细绳打死结，一寸寸放进缝里",
+      "refs": [
+        "c-linwan",
+        "c-mashao",
+        "s-bengzhan",
+        "p-lamp"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "你这是钓鱼？"
+        },
+        {
+          "who": "林晚",
+          "line": "灯掉下去，就看不见了。"
+        }
+      ],
+      "lighting_scene_lock": "泵站：当代北方港城冬夜，手电冷白光与提灯暖黄，灰尘在光柱里浮动，缝底暗处只有灯光",
+      "end_frame_note": "灯沉入缝中，只剩绳在她指间",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh07_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111807
+    },
+    {
+      "id": "sh08a",
+      "scene": "sc2",
+      "beats": [
+        "b8a"
+      ],
+      "duration_s": 5,
+      "mode": "Ref2VA",
+      "shot_size": "high-angle",
+      "camera": "缝内俯视下摇，一镜到底，中途不切",
+      "action": "灯光下沉，照出缝底青灰石门门楣。门楣拍成空额，不生成倒刻篆字，字形后期合成。",
+      "refs": [
+        "c-linwan",
+        "s-bengzhan",
+        "p-lintel",
+        "p-lamp"
+      ],
+      "dialogue": [],
+      "lighting_scene_lock": "泵站：当代北方港城冬夜，手电冷白光与提灯暖黄，灰尘在光柱里浮动，缝底暗处只有灯光",
+      "end_frame_note": "空门楣被灯光照亮，留后期合成倒刻「林晚」",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh08a_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111881
+    },
+    {
+      "id": "sh08b",
+      "scene": "sc2",
+      "beats": [
+        "b8b"
+      ],
+      "duration_s": 6,
+      "mode": "Ref2VA",
+      "shot_size": "close-up",
+      "camera": "手镜特写，极慢推，一镜到底，中途不切",
+      "action": "林晚举手镜对缝口。手镜拍成空镜面，不生成篆字，两字翻正由后期合成。",
+      "refs": [
+        "c-linwan",
+        "p-handmirror",
+        "p-lintel",
+        "s-bengzhan"
+      ],
+      "dialogue": [
+        {
+          "who": "林晚",
+          "line": "……是我的名字。"
+        }
+      ],
+      "lighting_scene_lock": "泵站：当代北方港城冬夜，手电冷白光与提灯暖黄，灰尘在光柱里浮动，缝底暗处只有灯光",
+      "end_frame_note": "空手镜映着林晚的眼睛，镜框边留后期合成『林晚』两字",
+      "locked_version": "v2",
+      "locked_file": "fanzimu_ep01_sh08b_p720t8v2_00001_.mp4",
+      "locked_seed": 2026111883
+    },
+    {
+      "id": "sh09",
+      "scene": "sc2",
+      "beats": [
+        "b9"
+      ],
+      "duration_s": 7,
+      "mode": "Ref2VA",
+      "shot_size": "medium",
+      "camera": "固定",
+      "action": "马勺后退撞锈管；顾沉在缝边画圈",
+      "refs": [
+        "c-mashao",
+        "c-guchen",
+        "s-bengzhan"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "你别吓我，我心脏是二手的。"
+        },
+        {
+          "who": "顾沉",
+          "line": "刻得新。"
+        }
+      ],
+      "lighting_scene_lock": "泵站：当代北方港城冬夜，手电冷白光与提灯暖黄，灰尘在光柱里浮动，缝底暗处只有灯光",
+      "end_frame_note": "地上粉笔圈，顾沉盯着缝",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh09_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111809
+    },
+    {
+      "id": "sh10",
+      "scene": "sc2",
+      "beats": [
+        "b10"
+      ],
+      "duration_s": 10,
+      "mode": "Ref2VA",
+      "shot_size": "medium close-up three-shot",
+      "camera": "极慢推近",
+      "action": "铲土声；三人静止；林晚收灯，绳头湿泥",
+      "refs": [
+        "c-linwan",
+        "c-guchen",
+        "c-mashao",
+        "s-bengzhan"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "底下是人……还是东西？"
+        },
+        {
+          "who": "林晚",
+          "line": "人。东西不用铲子。"
+        }
+      ],
+      "lighting_scene_lock": "泵站：当代北方港城冬夜，手电冷白光与提灯暖黄，灰尘在光柱里浮动，缝底暗处只有灯光",
+      "end_frame_note": "林晚指间绳头一团湿泥",
+      "locked_version": "v1",
+      "locked_file": "fanzimu_ep01_sh10_p720t8v1_00001_.mp4",
+      "locked_seed": 2026111810
+    },
+    {
+      "id": "sh11",
+      "scene": "sc2",
+      "beats": [
+        "b11"
+      ],
+      "duration_s": 8,
+      "mode": "Ref2VA",
+      "shot_size": "close-up三人脸部，自下向上",
+      "camera": "缝内仰拍，固定",
+      "action": "缝下传来嚼东西的画外音（侯启明本集不露脸，只出声音）；三人半张脸被缝里灯光照亮，不动",
+      "refs": [
+        "c-linwan",
+        "c-guchen",
+        "c-mashao",
+        "s-bengzhan"
+      ],
+      "dialogue": [
+        {
+          "who": "侯启明（画外音）",
+          "line": "上面的，灯收一收，晃眼。"
+        }
+      ],
+      "lighting_scene_lock": "泵站：当代北方港城冬夜，手电冷白光与提灯暖黄，灰尘在光柱里浮动，缝底暗处只有灯光",
+      "end_frame_note": "三张半明半暗的脸，定格感",
+      "locked_version": "v3",
+      "locked_file": "fanzimu_ep01_sh11_p720t8v3_00001_.mp4",
+      "locked_seed": 2026111831
+    }
+  ],
+  "locked_cuts": {
+    "sh01a": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh01a_p720t8v1_00001_.mp4",
+      "seed": 2026111811
+    },
+    "sh01b": {
+      "version": "v2",
+      "file": "fanzimu_ep01_sh01b_p720t8v2_00001_.mp4",
+      "seed": 2026111812
+    },
+    "sh02": {
+      "version": "v2",
+      "file": "fanzimu_ep01_sh02_p720t8v2_00001_.mp4",
+      "seed": 2026111802,
+      "note": "not v3"
+    },
+    "sh03": {
+      "version": "v3",
+      "file": "fanzimu_ep01_sh03_p720t8v3_00001_.mp4",
+      "seed": 2026111803
+    },
+    "sh04": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh04_p720t8v1_00001_.mp4",
+      "seed": 2026111804,
+      "note": "blank hand-mirror for post 倒字; 砖头 runs past with plain boxes; hands OK"
+    },
+    "sh05": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh05_p720t8v1_00001_.mp4",
+      "seed": 2026111805
+    },
+    "sh06": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh06_p720t8v1_00001_.mp4",
+      "seed": 2026111806
+    },
+    "sh07": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh07_p720t8v1_00001_.mp4",
+      "seed": 2026111807
+    },
+    "sh08a": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh08a_p720t8v1_00001_.mp4",
+      "seed": 2026111881,
+      "note": "blank slab for post 「林晚」; floor reads drier than wet pump station but accepted"
+    },
+    "sh09": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh09_p720t8v1_00001_.mp4",
+      "seed": 2026111809
+    },
+    "sh10": {
+      "version": "v1",
+      "file": "fanzimu_ep01_sh10_p720t8v1_00001_.mp4",
+      "seed": 2026111810
+    },
+    "sh08b": {
+      "version": "v2",
+      "file": "fanzimu_ep01_sh08b_p720t8v2_00001_.mp4",
+      "seed": 2026111883,
+      "note": "one Lin Wan throughout; blank mirror for post 「林晚」; opening a bit wider than tight CU; lantern at lower right is not a second person"
+    },
+    "sh11": {
+      "version": "v3",
+      "file": "fanzimu_ep01_sh11_p720t8v3_00001_.mp4",
+      "seed": 2026111831,
+      "note": "silent freeze (no dialogue in prompt); mouths not tightly closed (stunned expressions); VO added in post; no head-turns"
+    }
+  }
+}

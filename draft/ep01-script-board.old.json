@@ -1,0 +1,294 @@
+{
+  "id": "ep-01",
+  "title": "镜子里的字",
+  "series": "反字墓",
+  "aspect": "9:16",
+  "fps": 24,
+  "target_duration_s": 90,
+  "note": "原创样片。类型向盗墓探险，不使用既有作品人物与情节。",
+  "characters": [
+    {
+      "id": "c-linwan",
+      "name": "林晚",
+      "ref_image": "",
+      "look": "28岁女性，黑发低挽，深灰大衣，卡其围巾，旧皮挎包，黄铜手提灯，神情专注"
+    },
+    {
+      "id": "c-guchen",
+      "name": "顾沉",
+      "ref_image": "",
+      "look": "32岁男性，短发，左眉浅疤，黑帆布工作夹克，腰间盘绳，手持折尺和粉笔，神情冷静"
+    },
+    {
+      "id": "c-mashao",
+      "name": "马勺",
+      "ref_image": "",
+      "look": "35岁瘦削男性，寸头，金边旧眼镜，偏大的棕色棉袄，手握保温杯，神情慌张又殷勤"
+    }
+  ],
+  "scene_lock": "津海冬夜。雨后湿石板的古玩巷；租屋台灯与手镜；废弃泵站由混凝土转入青灰古石壁；反字石门渗黑水，门缝里已有一盏油灯。",
+  "scenes": [
+    {
+      "id": "sc1",
+      "slugline": "外。津海夜市古玩巷 - 夜",
+      "beats": [
+        {
+          "id": "b1",
+          "action": "雨后夜市，马勺把发黄拓片按进林晚手里。",
+          "dialogue": [
+            {
+              "who": "马勺",
+              "line": "这字谁看谁倒霉。我贴墙上当废纸，都嫌它阴。"
+            },
+            {
+              "who": "林晚",
+              "line": "你这是倒着拓的。"
+            },
+            {
+              "who": "马勺",
+              "line": "倒着？我可是正着刷的。"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "action": "林晚将拓片对向摊上铜镜，反着的篆字在镜中可读。",
+          "dialogue": [
+            {
+              "who": "林晚",
+              "line": "反字陵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc2",
+      "slugline": "内。林晚租屋 - 夜",
+      "beats": [
+        {
+          "id": "b3",
+          "action": "台灯下，拓片边缘显出地址「西坝泵站」。林晚临摹反字，似乎看见角落里有一个「林」，再看墨迹又糊了。",
+          "dialogue": []
+        }
+      ]
+    },
+    {
+      "id": "sc3",
+      "slugline": "内。废弃西坝泵站地下 - 夜",
+      "beats": [
+        {
+          "id": "b4",
+          "action": "手电切开灰尘。墙根下露出青灰古石。顾沉用粉笔在地上划尺标。",
+          "dialogue": [
+            {
+              "who": "林晚",
+              "line": "这下面有墓。"
+            },
+            {
+              "who": "顾沉",
+              "line": "有人比你早到。"
+            },
+            {
+              "who": "林晚",
+              "line": "你是？"
+            },
+            {
+              "who": "顾沉",
+              "line": "顾沉。今晚别进。"
+            }
+          ]
+        },
+        {
+          "id": "b5",
+          "action": "石缝渗出黑水，门缝里一盏油灯已经亮着。",
+          "dialogue": [
+            {
+              "who": "林晚",
+              "line": "里面有人？"
+            },
+            {
+              "who": "顾沉",
+              "line": "灯不是人点的。"
+            }
+          ]
+        },
+        {
+          "id": "b6",
+          "action": "林晚走近石门，手电照见门内侧倒刻的两个字，正过来是「林晚」。门内灯火跳了一下。",
+          "dialogue": [
+            {
+              "who": "林晚",
+              "line": "这是我的名字。"
+            },
+            {
+              "who": "顾沉",
+              "line": "那就更不该开。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "sh01",
+      "scene": "sc1",
+      "beats": [
+        "b1"
+      ],
+      "duration_s": 12,
+      "mode": "Ref2VA",
+      "shot_size": "medium",
+      "camera": "slow dolly in along the wet stall",
+      "action": "雨后古玩巷，马勺把拓片按进林晚手里，两人隔着摊位对话。",
+      "refs": [
+        "c-linwan",
+        "c-mashao"
+      ],
+      "dialogue": [
+        {
+          "who": "马勺",
+          "line": "这字谁看谁倒霉。我贴墙上当废纸，都嫌它阴。"
+        },
+        {
+          "who": "林晚",
+          "line": "你这是倒着拓的。"
+        },
+        {
+          "who": "马勺",
+          "line": "倒着？我可是正着刷的。"
+        }
+      ],
+      "end_frame_note": "林晚低头看着手中拓片，马勺紧张盯着她"
+    },
+    {
+      "id": "sh02",
+      "scene": "sc1",
+      "beats": [
+        "b2"
+      ],
+      "duration_s": 8,
+      "mode": "Ref2VA",
+      "shot_size": "close-up",
+      "camera": "hold, then slight push to the copper mirror",
+      "action": "林晚把拓片对向铜镜，镜中篆字变得可读。",
+      "refs": [
+        "c-linwan"
+      ],
+      "dialogue": [
+        {
+          "who": "林晚",
+          "line": "反字陵。"
+        }
+      ],
+      "end_frame_note": "铜镜里清晰映出反字，林晚眼神一紧"
+    },
+    {
+      "id": "sh03",
+      "scene": "sc2",
+      "beats": [
+        "b3"
+      ],
+      "duration_s": 10,
+      "mode": "Ref2VA",
+      "shot_size": "medium close-up",
+      "camera": "static, then tilt down to the rubbing corner",
+      "action": "林晚在书桌前临摹拓片，发现地址和疑似自己的姓，再看墨迹模糊。",
+      "refs": [
+        "c-linwan"
+      ],
+      "dialogue": [],
+      "end_frame_note": "她抬头望向窗外码头灯，拓片平摊在灯下"
+    },
+    {
+      "id": "sh04",
+      "scene": "sc3",
+      "beats": [
+        "b4"
+      ],
+      "duration_s": 15,
+      "mode": "Ref2VA",
+      "shot_size": "medium two-shot",
+      "camera": "handheld flashlight motivation, then settle",
+      "action": "泵站地下，林晚遇见正在划尺标的顾沉，短暂对质。",
+      "refs": [
+        "c-linwan",
+        "c-guchen"
+      ],
+      "dialogue": [
+        {
+          "who": "林晚",
+          "line": "这下面有墓。"
+        },
+        {
+          "who": "顾沉",
+          "line": "有人比你早到。"
+        },
+        {
+          "who": "林晚",
+          "line": "你是？"
+        },
+        {
+          "who": "顾沉",
+          "line": "顾沉。今晚别进。"
+        }
+      ],
+      "end_frame_note": "两人停在石壁前，顾沉的粉笔标记留在地面"
+    },
+    {
+      "id": "sh05",
+      "scene": "sc3",
+      "beats": [
+        "b5"
+      ],
+      "duration_s": 10,
+      "mode": "Ref2VA",
+      "shot_size": "medium",
+      "camera": "slow push toward the cracked stone door",
+      "action": "石缝渗黑水，门缝里油灯已亮，林晚与顾沉对视。",
+      "refs": [
+        "c-linwan",
+        "c-guchen"
+      ],
+      "dialogue": [
+        {
+          "who": "林晚",
+          "line": "里面有人？"
+        },
+        {
+          "who": "顾沉",
+          "line": "灯不是人点的。"
+        }
+      ],
+      "end_frame_note": "门缝中灯火稳定发亮，黑水顺着砖缝往下淌"
+    },
+    {
+      "id": "sh06",
+      "scene": "sc3",
+      "beats": [
+        "b6"
+      ],
+      "duration_s": 15,
+      "mode": "Ref2VA",
+      "shot_size": "close-up then medium",
+      "camera": "push in on the inverted carved name, then pull back to both",
+      "action": "手电照见倒刻的「林晚」，顾沉拦住，门内灯火跳动。",
+      "refs": [
+        "c-linwan",
+        "c-guchen"
+      ],
+      "dialogue": [
+        {
+          "who": "林晚",
+          "line": "这是我的名字。"
+        },
+        {
+          "who": "顾沉",
+          "line": "那就更不该开。"
+        }
+      ],
+      "end_frame_note": "石门未开，灯火轻跳，两人的脸一半亮一半暗"
+    }
+  ]
+}
