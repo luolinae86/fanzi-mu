@@ -15,7 +15,7 @@
     },
     {
       "id": "c-guchen",
-      "name": "顾沉",
+      "name": "高山",
       "ref_image": "",
       "look": "32岁男性，短发，左眉浅疤，黑帆布工作夹克，腰间盘绳，手持折尺和粉笔，神情冷静"
     },
@@ -79,14 +79,14 @@
       "beats": [
         {
           "id": "b4",
-          "action": "手电切开灰尘。墙根下露出青灰古石。顾沉用粉笔在地上划尺标。",
+          "action": "手电切开灰尘。墙根下露出青灰古石。高山用粉笔在地上划尺标。",
           "dialogue": [
             {
               "who": "林晚",
               "line": "这下面有墓。"
             },
             {
-              "who": "顾沉",
+              "who": "高山",
               "line": "有人比你早到。"
             },
             {
@@ -94,8 +94,8 @@
               "line": "你是？"
             },
             {
-              "who": "顾沉",
-              "line": "顾沉。今晚别进。"
+              "who": "高山",
+              "line": "高山。今晚别进。"
             }
           ]
         },
@@ -108,7 +108,7 @@
               "line": "里面有人？"
             },
             {
-              "who": "顾沉",
+              "who": "高山",
               "line": "灯不是人点的。"
             }
           ]
@@ -122,7 +122,7 @@
               "line": "这是我的名字。"
             },
             {
-              "who": "顾沉",
+              "who": "高山",
               "line": "那就更不该开。"
             }
           ]
@@ -211,7 +211,7 @@
       "mode": "Ref2VA",
       "shot_size": "medium two-shot",
       "camera": "handheld flashlight motivation, then settle",
-      "action": "泵站地下，林晚遇见正在划尺标的顾沉，短暂对质。",
+      "action": "泵站地下，林晚遇见正在划尺标的高山，短暂对质。",
       "refs": [
         "c-linwan",
         "c-guchen"
@@ -222,7 +222,7 @@
           "line": "这下面有墓。"
         },
         {
-          "who": "顾沉",
+          "who": "高山",
           "line": "有人比你早到。"
         },
         {
@@ -230,11 +230,11 @@
           "line": "你是？"
         },
         {
-          "who": "顾沉",
-          "line": "顾沉。今晚别进。"
+          "who": "高山",
+          "line": "高山。今晚别进。"
         }
       ],
-      "end_frame_note": "两人停在石壁前，顾沉的粉笔标记留在地面"
+      "end_frame_note": "两人停在石壁前，高山的粉笔标记留在地面"
     },
     {
       "id": "sh05",
@@ -246,7 +246,7 @@
       "mode": "Ref2VA",
       "shot_size": "medium",
       "camera": "slow push toward the cracked stone door",
-      "action": "石缝渗黑水，门缝里油灯已亮，林晚与顾沉对视。",
+      "action": "石缝渗黑水，门缝里油灯已亮，林晚与高山对视。",
       "refs": [
         "c-linwan",
         "c-guchen"
@@ -257,7 +257,7 @@
           "line": "里面有人？"
         },
         {
-          "who": "顾沉",
+          "who": "高山",
           "line": "灯不是人点的。"
         }
       ],
@@ -273,7 +273,7 @@
       "mode": "Ref2VA",
       "shot_size": "close-up then medium",
       "camera": "push in on the inverted carved name, then pull back to both",
-      "action": "手电照见倒刻的「林晚」，顾沉拦住，门内灯火跳动。",
+      "action": "手电照见倒刻的「林晚」，高山拦住，门内灯火跳动。",
       "refs": [
         "c-linwan",
         "c-guchen"
@@ -284,7 +284,7 @@
           "line": "这是我的名字。"
         },
         {
-          "who": "顾沉",
+          "who": "高山",
           "line": "那就更不该开。"
         }
       ],
