@@ -1,0 +1,10 @@
+LOCKED HERO PROP — 土锈铜镜 p-bronzemirror
+Scale (all night-market shots must match):
+  diameter ≈ 14–16 cm
+  ≈ width of one adult open hand / rice bowl / large saucer
+  smaller than Zhao's face when held; fingers curl over rim
+  NOT a dinner-plate / platter; NOT a tiny 8cm pocket / coin
+  Same object as ComfyUI input fanzimu_p-bronzemirror.jpg
+Scene ref: use fanzimu_s-yeshi_nomirror.jpg (NOT raw s-yeshi — raw has stall mirrors).
+In wide/two-shots: one handheld antique only; table = cardboard boxes, no disc rows.
+In MCU/ECU: fills most of both palms; pattern + knob + green rust + earth readable.

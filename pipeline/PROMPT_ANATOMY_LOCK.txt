@@ -1,0 +1,12 @@
+# 粘进每条 H3 prompt 的硬约束（按镜裁剪主语名）
+# 单人持物 ECU / MCU（最易出第三只手）：
+
+ANATOMY LOCK — copy into subject_definitions + detailed_description:
+- <Subject N> has exactly TWO hands and TWO arms. Never a third hand, never a phantom arm, never an extra wrist entering from frame edge.
+- Visible hand count in close-ups of him holding the prop = exactly 2 (both belong to him).
+- Prop is ALREADY in his palms at shot start. NO handoff. NO receiving hand from below/side. NO other person reaches into the ECU.
+- Prefer framing: MCU of face + prop held at chest, OR extreme CU so tight that only his two hands + prop fill the frame (no room for a third hand to enter).
+
+# 双人交接镜（仍易长手）优先改成「已在桌上 / 已在接收者手里」中段起幅，不要拍递接瞬间。
+
+# QC：锁定前抽帧数手；ECU 任一眼见 ≥3 只手 → 整镜作废重跑。
